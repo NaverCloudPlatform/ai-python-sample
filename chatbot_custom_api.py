@@ -9,9 +9,9 @@ import json
 class ChatbotMessageSender:
 
     # chatbot api gateway url
-    ep_path = 'https://ex9av8bv0e.apigw.ntruss.com/custom_chatbot/prod/'
+    ep_path = ''
     # chatbot api gateway url
-    secret_key = 'VHRycEdhZVdNT2twQWhlY3VqTHdJZ2dlZ3liS1ROa0s='
+    secret_key = ''
 
     def req_message_send(self):
 

@@ -1,7 +1,7 @@
 import requests
 
-client_id = "svcbyxyvfj"
-client_secret = "DRcDAbaYNwi0jqBACwm8E1xl9LsHLHLsIGtuVynA"
+client_id = ""
+client_secret = ""
 lang = "Kor"    # 언어 코드 ( Kor, Jpn, Eng, Chn )
 url = "https://naveropenapi.apigw.ntruss.com/recog/v1/stt?lang=" + lang
 

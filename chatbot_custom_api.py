@@ -4,6 +4,7 @@ import base64
 import time
 import requests
 import json
+import uuid
 
 
 class ChatbotMessageSender:
@@ -12,13 +13,15 @@ class ChatbotMessageSender:
     ep_path = ''
     # chatbot api gateway url
     secret_key = ''
+    # userId is a unique code for each chat user, not a fixed value, recommend use UUID. use different id for each user could help you to split chat history for users.
+    user_id = str(uuid.uuid4())
 
     def req_message_send(self):
 
         timestamp = self.get_timestamp()
         request_body = {
             'version': 'v2',
-            'userId': 'U47b00b58c90f8e47428af8b7bddcda3d11111',
+            'userId': user_id,
             'timestamp': timestamp,
             'bubbles': [
                 {
@@ -50,7 +53,7 @@ class ChatbotMessageSender:
         print("## request body : ", json.dumps(request_body))
 
         ## POST Request
-        response = requests.post(headers=custom_headers, url=self.ep_path, data=encode_request_body)
+        response = requests.post(headers=custom_headers, url=self.ep_path, data=request_body)
 
         return response
 

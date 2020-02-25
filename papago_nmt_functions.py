@@ -10,8 +10,6 @@ def main(args):
 
     url = "https://naveropenapi.apigw.ntruss.com/nmt/v1/translation"
 
-    data = "source=ko&target=en&text=" + ''
-
     #text = "네이버 클라우드 플랫폼에서는 Clova, papago 등 네이버의 다양한 인공지능 서비스를 API 형태로 제공합니다. 고객은 네이버의 인공지능 서비스를 활용하여, " \
     #       "최신 기술 기반의 AI 서비스를 구축하고 안정적으로 운영할 수 있습니다.."
 

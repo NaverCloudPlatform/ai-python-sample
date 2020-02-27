@@ -31,7 +31,7 @@
 ## 참고사항
 
 * Chatbot Custom API 와 OCR General API를 제외한 AI API는 네이버클라우드플랫폼의 AI NAVER API 메뉴에서 Application 등록을 해야 합니다.
-등록후에 인증정보를 확인 할 수 있고, 해당 인증정보를 통해 샘플소스에 있는 client_id, Client_Secret 값을 변경해야 합니다.
+등록후에 인증정보를 확인 할 수 있고, 해당 인증정보를 통해 샘플소스에 있는 client_id, Client_Secret 값을 변경해야 합니다. [설명서](https://docs.ncloud.com/ko/naveropenapi_v3/application.html)
 * Chatbot Custom API는 대화 목록에 대화가 생성이 되어 있어야 하며, 대화 모델 빌드까지 끝난 상태에서 "챗봇 설정" > "메신저 연동" > "Custom"을 통해 API Gateway URL을 통해 호출하게 됩니다. 인증정보는 네이버클라우드플랫폼의 서비스 계정 또는 SubAccount의 AccessKey, AccessSecret가 필요 합니다.
 [설명서](https://docs.ncloud.com/ko/chatbot/chatbot-2-5.html)
 * OCR General API는 이미지에 있는 모든 텍스트를 추출하는 API 입니다. 인증정보는 네이버클라우드플랫폼의 서비스 계정 또는 SubAccount의 AccessKey, AccessSecret가 필요 합니다. [설명서](https://docs.ncloud.com/ko/ocr/ocr-1-2.html)

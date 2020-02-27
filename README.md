@@ -1,9 +1,6 @@
-# ai-python-sample
-
 # ai-python-sample-1.0
 
 **네이버클라우드플랫폼 AI 상품**을 쉽게 사용하기 위한, Python 샘플소스를 제공 합니다. 
-샘플소스를 이용해서 AI API 사용방법을 알수 있습니다.
 
 ## AI API 샘플
 * chatbot_custom_api.py : 웹서비스 및 모바일 앱등에서 사용할 수 있는 Chatbot Custom API
@@ -18,12 +15,18 @@
 * papago_nmt_sample.py : 가장 뛰어난 한국어 번역 품질을 제공하는 인공 신경망기반 기계 번역 API
 * pose_estimation_sample.py : 주요 신체 영역을 인식하여 좌표 정보를 제공하는 포즈 인식 API
 
-## 관련 API 설명서 및 참조서
+## 관련 API 참조서
 
-* Clova Speech Synthesis(CSS) : [CSS 설명서](http://docs.ncloud.com/ko/naveropenapi_v3/speech/synthesis.html), [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/clova_speech_synthesis/tts/)
-* Clova Speech Recognition(CSR) : [Android/iOS SDK 설명서](http://docs.ncloud.com/ko/naveropenapi_v3/speech/recognition-sdk.html), [CSR 설명서](http://docs.ncloud.com/ko/naveropenapi_v3/speech/recognition-api.html), [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/clova_speech_recognition/stt/)
-* Papago NMT : [Papago NMT 설명서](http://docs.ncloud.com/ko/naveropenapi_v3/translation/nmt.html), [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/papago_nmt/translation/)
-* Chatbot : [Custom API 설명서](http://docs.ncloud.com/ko/chatbot/chatbot-3-7.html), [Custom API 호출 URL 설명서](http://docs.ncloud.com/ko/chatbot/chatbot-2-5.html)
+* Clova Speech Synthesis(CSS) : [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/clova_speech_synthesis/tts/)
+* Clova Speech Recognition(CSR) : [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/clova_speech_recognition/stt/)
+* Clova Premium Voice(CPV) : [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/clova_premium_voice/)
+* Clova Face Recognition(CFR) : [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/clova_face_recognition/)
+* Papago NMT : [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/papago_nmt/translation/)
+* Papago Language Detection : [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/papago_language_detection/)
+* Papago Korean Name Romanizer : [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/papago_korean_name_romanizer/)
+* Chatbot Custom API : [API 참조서](https://apidocs.ncloud.com/ko/ai-application-service/chatbot/)
+* Object Detection : [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/object_detection/object/)
+* Pose Estimation : [API 참조서](https://apidocs.ncloud.com/ko/ai-naver/pose_estimation/)
 
 
 

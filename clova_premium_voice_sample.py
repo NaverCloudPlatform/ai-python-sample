@@ -17,7 +17,7 @@ val = {
     "text": text
 }
 
-url = "https://naveropenapi.apigw.ntruss.com/voice-premium/v1/tts"
+url = "https://naveropenapi.apigw.ntruss.com/tts-premium/v1/tts"
 
 headers = {
     "X-NCP-APIGW-API-KEY-ID": client_id,

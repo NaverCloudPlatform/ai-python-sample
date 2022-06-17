@@ -10,7 +10,9 @@
 * clova_speech_synthesis_sample.py : 텍스트를 음성으로 변환해주는 음성 합성 API
 * object_detection_sample.py : 이미지 속 객체를 탐지하고 위치 식별을 위한 API
 * ocr_general_api.py : 이미지를 텍스트로 변환할 수 있는 API
-* ocr_general_api_use_object_storage.py : 비공개 object storage의 이미지를 텍스트로 변환할 수 있는 API (python boto3 install필요)
+* ocr_general_api_use_object_storage.py : 비공개 object storage의 이미지를 텍스트로 변환할 수 있는 API
+  - python boto3 install 필요
+  - config.ini 파일 이용하여 설정세팅 
 * papago_korean_name_romanizer_sample.py : 한국 인명 로마자 변환 API
 * papago_language_detection_sample.py : 언어의 종류를 감지할 수 있는 API
 * papago_nmt_sample.py : 가장 뛰어난 한국어 번역 품질을 제공하는 인공 신경망기반 기계 번역 API

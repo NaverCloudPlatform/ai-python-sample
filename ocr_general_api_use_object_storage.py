@@ -58,7 +58,6 @@ class OCRTestSample:
         timestamp = int(time.time() * 1000)
         return timestamp
 
-    @property
     def get_file_list(self):
         # for connect object storage
         service_name = self.config['S3_CONFIG']['service_name']
@@ -125,7 +124,7 @@ class OCRTestSample:
 if __name__ == '__main__':
     
     # 1. 비공개 object storage에 접근하여 대상 파일 데이터 추출
-    file_list = OCRTestSample().get_file_list
+    file_list = OCRTestSample().get_file_list()
 
     if not file_list:
         print("\n## There is no files or the prefix name is incorrect")
